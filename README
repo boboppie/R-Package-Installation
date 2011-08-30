@@ -2,6 +2,6 @@ Host the script to install R/Bioconductor packages for my own use
 
 Usage:
 
-# R version 2.12+
+# R version 2.13.1+
 
 >source("install_packages.R")
