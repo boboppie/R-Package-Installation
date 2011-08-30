@@ -23,7 +23,7 @@ biocLite("ArrayExpressHTS")
 biocLite("BSgenome")
 
 # Homo sapiens (Human) full genome (UCSC version hg19)
-biocLite("BSgenome.Hsapiens.UCSC.hg19") # big file > 400M
+biocLite("BSgenome.Hsapiens.UCSC.hg19") # big file > 800M
 
 # Classes and functions for Array Comparative Genomic Hybridization data
 biocLite("aCGH")
