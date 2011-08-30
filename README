@@ -4,4 +4,8 @@ Usage:
 
 # R version 2.13.1+
 
+# in R
 >source("install_packages.R")
+
+# in bash without launch R
+R CMD BATCH –no-restore install_packages.R
