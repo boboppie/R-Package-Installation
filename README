@@ -7,5 +7,5 @@ Usage:
 # in R
 >source("install_packages.R")
 
-# in bash without launch R
+# in bash without launching R
 R CMD BATCH –no-restore install_packages.R
