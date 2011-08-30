@@ -1,0 +1,5 @@
+Host the script to install R/Bioconductor packages for my own use
+
+Usage:
+
+>source("install_packages.R")
