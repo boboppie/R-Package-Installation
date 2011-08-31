@@ -5,14 +5,23 @@
 #################################################################
 ##
 ##
-### START ##
+### START ###
 
 # Matrix is a CRAN extras package
-install.packages("Matrix")
+install.packages("Matrix") # seems pre-installed
 library("Matrix")
 
-## Bioconductor packages
+## Visualization
+# the great ggplot2 system
+install.packages("ggplot2")
 
+# wordcloud
+install.packages("wordcloud")
+
+# Text Mining Package
+install.packages("tm")
+
+## Bioconductor packages
 # sets up the Bioconductor repository
 source("http://bioconductor.org/biocLite.R")
 
@@ -27,6 +36,10 @@ biocLite("BSgenome.Hsapiens.UCSC.hg19") # big file > 800M
 
 # Classes and functions for Array Comparative Genomic Hybridization data
 biocLite("aCGH")
+
+## Other
+# Get XKCD comic from R (this is sick...)
+install.packages("RXKCD")
 
 # Lists all the packages installed locally
 library()
