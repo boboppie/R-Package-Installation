@@ -38,8 +38,8 @@ biocLite("BSgenome.Hsapiens.UCSC.hg19") # big file > 800M
 biocLite("aCGH")
 
 ## Other
-# Get XKCD comic from R (this is sick...)
-install.packages("RXKCD")
+# Get XKCD comic from R 
+install.packages("RXKCD") # this is sick...
 
 # Lists all the packages installed locally
 library()
