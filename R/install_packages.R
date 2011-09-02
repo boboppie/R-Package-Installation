@@ -37,6 +37,9 @@ biocLite("BSgenome.Hsapiens.UCSC.hg19") # big file > 800M
 # Classes and functions for Array Comparative Genomic Hybridization data
 biocLite("aCGH")
 
+# Linear Models for Microarray Data
+biocLite("limma")
+
 ## Other
 # Get XKCD comic from R 
 install.packages("RXKCD") # this is sick...
