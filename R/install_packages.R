@@ -40,6 +40,18 @@ biocLite("aCGH")
 # Linear Models for Microarray Data
 biocLite("limma")
 
+# DNA copy number data analysis
+biocLite("DNAcopy")
+
+# Interface to BioMart databases (e.g. Ensembl, COSMIC ,Wormbase and Gramene)
+biocLite("biomaRt")
+
+# Get data from NCBI Gene Expression Omnibus (GEO)
+biocLite("GEOquery")
+
+# Empirical analysis of digital gene expression data in R
+biocLite("edgeR")
+
 ## Other
 # Get XKCD comic from R 
 install.packages("RXKCD") # this is sick...
